@@ -1,0 +1,247 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    height: 40px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 461px;
+    height: 69px;
+    padding: 4px 25px;
+    border-radius: 225px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 106px;
+}
+
+.img1 {
+    height: 70px;
+    width: 70px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: left;
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 36px;
+}
+
+.card5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+}
+
+.group1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    padding: 10px;
+    background: #ffffff;
+}
+.group2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    padding: 10px;
+    background: #ffffff;
+} 
+.group3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border:none;
+    padding: 10px;
+    background: #ffffff;
+}
+
+input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 100%;
+}
+
+.dropdown-menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdownbtn i {
+    margin-left: 10px;
+}
+
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .form {
+        width: 100%;
+    }
+    .social {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .social .icon {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .social h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+.social {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img3 {
+    width: 32px;
+    height: 32px;
+    top: 945px;
+    left: 49px;
+}
+
+.img4 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 101px;
+}
+
+.img5 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 153px;
+}
+
+.img6 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 198px;
+}
+
+h6 {
+    width: 140px;
+    height: 22px;
+    top: 958px;
+    left: 600px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #747070;
+}
+
+.card3 {
+    width: 200px;
+    display: flex;
+    justify-content:space-around;
+}

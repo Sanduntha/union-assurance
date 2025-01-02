@@ -1,0 +1,244 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    height: 40px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 461px;
+    height: 69px;
+    padding: 4px 25px;
+    border-radius: 225px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 106px;
+}
+
+.img1 {
+    height: 70px;
+    width: 70px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+}
+/* .card1{
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+  
+} */
+
+
+
+
+
+.card2{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 450px;
+    height: 460px;
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    align-self: center;
+}
+
+.highlight {
+    color: orange;
+    font-weight: 400px;
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-self: start;
+}
+
+.marital{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.btn1 {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btn2 {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transitions */
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.lbl{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgba(112, 112, 112, 1);
+}
+.btn2{
+    background-color: rgb(251, 163, 1);
+    color: white;
+    border-color: orange;
+} 
+
+
+
+.info{
+    text-align: left;
+}
+.input1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+.input1 i{
+    color: #757575;
+}
+#wife{
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+
+@media (max-width: 350px){
+    .marital{
+        flex-direction: column;
+    }
+    .social {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .social .icon {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .social h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+    }
+
+}
+
+.social {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img3 {
+    width: 32px;
+    height: 32px;
+    top: 945px;
+    left: 49px;
+}
+
+.img4 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 101px;
+}
+
+.img5 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 153px;
+}
+
+.img6 {
+    width: 32px;
+    height: 32px;
+    top: 948px;
+    left: 198px;
+}
+
+h6 {
+    width: 140px;
+    height: 22px;
+    top: 958px;
+    left: 600px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #747070;
+}
+
+.card3 {
+    width: 200px;
+    display: flex;
+    justify-content:space-around;
+}
